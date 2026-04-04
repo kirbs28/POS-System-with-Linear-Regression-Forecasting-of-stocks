@@ -1,0 +1,64 @@
+transactionId,date,productId,productName,productCat,quantity,unitPrice,totalAmount
+TXN-001,2024-11-01,JB-001,Chickenjoy (1pc),Chicken,2,99,198
+TXN-001,2024-11-01,JB-010,Jolly Crispy Fries (Regular),Sides,2,59,118
+TXN-001,2024-11-01,JB-012,Iced Tea (Regular),Drinks,2,39,78
+TXN-002,2024-11-01,JB-006,Jolly Spaghetti,Pasta,3,79,237
+TXN-002,2024-11-01,JB-004,Yumburger,Burger,3,49,147
+TXN-003,2024-11-02,JB-002,Chickenjoy (2pc),Chicken,1,179,179
+TXN-003,2024-11-02,JB-011,Jolly Crispy Fries (Large),Sides,1,79,79
+TXN-003,2024-11-02,JB-013,Iced Tea (Large),Drinks,1,55,55
+TXN-004,2024-11-02,JB-008,Peach Mango Pie,Dessert,4,35,140
+TXN-004,2024-11-02,JB-005,Champ Burger,Burger,2,139,278
+TXN-005,2024-11-03,JB-003,Chickenjoy Bucket (6pc),Chicken,1,579,579
+TXN-005,2024-11-03,JB-007,Palabok Fiesta,Pasta,2,89,178
+TXN-006,2024-11-03,JB-015,Jolly Kiddie Meal,Meals,3,159,477
+TXN-006,2024-11-03,JB-012,Iced Tea (Regular),Drinks,3,39,117
+TXN-007,2024-11-04,JB-009,Halo-Halo Special,Dessert,2,135,270
+TXN-007,2024-11-04,JB-001,Chickenjoy (1pc),Chicken,4,99,396
+TXN-008,2024-11-04,JB-004,Yumburger,Burger,5,49,245
+TXN-008,2024-11-04,JB-010,Jolly Crispy Fries (Regular),Sides,5,59,295
+TXN-009,2024-11-05,JB-006,Jolly Spaghetti,Pasta,2,79,158
+TXN-009,2024-11-05,JB-014,Coca-Cola (Regular),Drinks,2,45,90
+TXN-010,2024-11-05,JB-002,Chickenjoy (2pc),Chicken,3,179,537
+TXN-010,2024-11-05,JB-008,Peach Mango Pie,Dessert,3,35,105
+TXN-011,2024-11-06,JB-005,Champ Burger,Burger,1,139,139
+TXN-011,2024-11-06,JB-011,Jolly Crispy Fries (Large),Sides,1,79,79
+TXN-012,2024-11-06,JB-001,Chickenjoy (1pc),Chicken,6,99,594
+TXN-012,2024-11-06,JB-013,Iced Tea (Large),Drinks,6,55,330
+TXN-013,2024-11-07,JB-003,Chickenjoy Bucket (6pc),Chicken,2,579,1158
+TXN-013,2024-11-07,JB-007,Palabok Fiesta,Pasta,1,89,89
+TXN-014,2024-11-08,JB-015,Jolly Kiddie Meal,Meals,4,159,636
+TXN-014,2024-11-08,JB-009,Halo-Halo Special,Dessert,2,135,270
+TXN-015,2024-11-08,JB-001,Chickenjoy (1pc),Chicken,3,99,297
+TXN-015,2024-11-08,JB-006,Jolly Spaghetti,Pasta,4,79,316
+TXN-016,2024-11-09,JB-004,Yumburger,Burger,7,49,343
+TXN-016,2024-11-09,JB-010,Jolly Crispy Fries (Regular),Sides,7,59,413
+TXN-016,2024-11-09,JB-012,Iced Tea (Regular),Drinks,7,39,273
+TXN-017,2024-11-10,JB-002,Chickenjoy (2pc),Chicken,2,179,358
+TXN-017,2024-11-10,JB-008,Peach Mango Pie,Dessert,5,35,175
+TXN-018,2024-11-10,JB-005,Champ Burger,Burger,3,139,417
+TXN-018,2024-11-10,JB-014,Coca-Cola (Regular),Drinks,3,45,135
+TXN-019,2024-11-11,JB-001,Chickenjoy (1pc),Chicken,8,99,792
+TXN-019,2024-11-11,JB-011,Jolly Crispy Fries (Large),Sides,4,79,316
+TXN-020,2024-11-12,JB-007,Palabok Fiesta,Pasta,3,89,267
+TXN-020,2024-11-12,JB-013,Iced Tea (Large),Drinks,3,55,165
+TXN-021,2024-11-13,JB-003,Chickenjoy Bucket (6pc),Chicken,1,579,579
+TXN-021,2024-11-13,JB-009,Halo-Halo Special,Dessert,3,135,405
+TXN-022,2024-11-14,JB-006,Jolly Spaghetti,Pasta,5,79,395
+TXN-022,2024-11-14,JB-004,Yumburger,Burger,5,49,245
+TXN-023,2024-11-15,JB-015,Jolly Kiddie Meal,Meals,6,159,954
+TXN-023,2024-11-15,JB-012,Iced Tea (Regular),Drinks,6,39,234
+TXN-024,2024-11-16,JB-001,Chickenjoy (1pc),Chicken,5,99,495
+TXN-024,2024-11-16,JB-008,Peach Mango Pie,Dessert,6,35,210
+TXN-025,2024-11-17,JB-002,Chickenjoy (2pc),Chicken,4,179,716
+TXN-025,2024-11-17,JB-010,Jolly Crispy Fries (Regular),Sides,4,59,236
+TXN-026,2024-11-18,JB-005,Champ Burger,Burger,2,139,278
+TXN-026,2024-11-18,JB-013,Iced Tea (Large),Drinks,2,55,110
+TXN-027,2024-11-19,JB-007,Palabok Fiesta,Pasta,4,89,356
+TXN-027,2024-11-19,JB-014,Coca-Cola (Regular),Drinks,4,45,180
+TXN-028,2024-11-20,JB-003,Chickenjoy Bucket (6pc),Chicken,3,579,1737
+TXN-028,2024-11-20,JB-011,Jolly Crispy Fries (Large),Sides,3,79,237
+TXN-029,2024-11-21,JB-001,Chickenjoy (1pc),Chicken,10,99,990
+TXN-029,2024-11-21,JB-006,Jolly Spaghetti,Pasta,3,79,237
+TXN-030,2024-11-22,JB-009,Halo-Halo Special,Dessert,4,135,540
+TXN-030,2024-11-22,JB-004,Yumburger,Burger,4,49,196

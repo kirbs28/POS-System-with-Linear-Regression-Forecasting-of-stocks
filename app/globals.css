@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Bebas+Neue&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --yellow: #ffc200;
+  --yellow-light: #ffd84d;
+  --yellow-dark: #e6a800;
+  --red: #cc0000;
+  --red-light: #ff1a1a;
+  --orange: #ff6b00;
+  --cream: #fff8e7;
+  --brown: #4a2800;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  background-color: #fdf6e3;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0.05em;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-jollibee-red text-white font-bold py-2.5 px-5 rounded-xl hover:bg-jollibee-red-dark transition-all duration-200 shadow-md hover:shadow-lg active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply bg-jollibee-yellow text-jollibee-brown font-bold py-2.5 px-5 rounded-xl hover:bg-jollibee-yellow-dark transition-all duration-200 shadow-md hover:shadow-lg active:scale-95;
+  }
+
+  .btn-outline {
+    @apply border-2 border-jollibee-red text-jollibee-red font-bold py-2.5 px-5 rounded-xl hover:bg-jollibee-red hover:text-white transition-all duration-200;
+  }
+
+  .btn-ghost {
+    @apply text-jollibee-brown font-semibold py-2.5 px-5 rounded-xl hover:bg-jollibee-yellow/20 transition-all duration-200;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-sm border border-jollibee-yellow/20 p-5;
+  }
+
+  .card-hover {
+    @apply card hover:shadow-md hover:border-jollibee-yellow/40 transition-all duration-200;
+  }
+
+  .input-field {
+    @apply w-full bg-white border-2 border-gray-200 rounded-xl px-4 py-2.5 text-jollibee-brown font-medium focus:outline-none focus:border-jollibee-yellow transition-colors duration-200;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold uppercase tracking-wide;
+  }
+
+  .stat-card {
+    @apply card flex items-start gap-4;
+  }
+
+  .sidebar-link {
+    @apply flex items-center gap-3 px-4 py-3 rounded-xl font-semibold text-jollibee-brown/70 hover:bg-jollibee-yellow/20 hover:text-jollibee-brown transition-all duration-200 cursor-pointer;
+  }
+
+  .sidebar-link.active {
+    @apply bg-jollibee-yellow text-jollibee-brown shadow-sm;
+  }
+
+  .table-header {
+    @apply text-left text-xs font-bold uppercase tracking-wider text-jollibee-brown/60 px-4 py-3 bg-jollibee-cream;
+  }
+
+  .table-cell {
+    @apply px-4 py-3 text-sm text-jollibee-brown border-b border-jollibee-yellow/10;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fff8e7;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffc200;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e6a800;
+}
+
+/* Smooth transitions */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Print styles for receipts */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-receipt {
+    font-family: "Courier New", monospace;
+    width: 80mm;
+    margin: 0 auto;
+  }
+}
